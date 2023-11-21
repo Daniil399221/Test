@@ -1,0 +1,92 @@
+*::before, *::after {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: o ;
+}
+
+.container {
+    width: 1105px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #e10000 ;
+    min-width: 200px;
+    padding: 10px 15px ;
+
+
+
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header__wrapper {
+    height: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__logo {
+    max-width: 96px;
+    padding-top: 25px;
+    max-height: 96px;
+    margin-left: 168px;
+    position: sticky;
+    
+
+}
+
+.nav {
+    color: black;
+    padding-top: 54px;
+    max-width: 103px;
+    height: 38px;
+    margin-left: 267px;
+    position: fixed;
+    display: flex   ;
+    
+}
+
+/* 1 секция */
+.intro {
+    background: url(file:///C:/Distr/Test/img/Group%2048096079.png);
+
+}
+
+.intro__content{
+    height: 791px;
+    display: flex;
+    align-items: center;
+}
+
+.intro__title {
+    max-width: 629px ;
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: -4%;
+    line-height: 52.8px;
+}
+
